@@ -1,0 +1,36 @@
+.context-field {
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.product-field {
+    border: 2px solid black;
+    padding: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.documentation-field {
+    border: 2px solid black;
+    padding: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.data-field {
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.plot-and-download-field {
+    border: 0.5px solid black;
+    box-shadow: 5px 5px 10px grey;
+    margin: 10px 0px 10px 0px;
+}
+
+.main {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}

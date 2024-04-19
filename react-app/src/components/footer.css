@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Zentriert den Inhalt vertikal */
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+}
+
+.footer-content {
+    display: flex;
+    align-items: start;
+}
+
+.footer img {
+    margin: 0 5px; /* Vereinfachte Schreibweise für oben und unten 0, links und rechts 5px */
+    border-radius: 15px;
+}

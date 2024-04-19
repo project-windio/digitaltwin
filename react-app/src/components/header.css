@@ -1,0 +1,28 @@
+.header{
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 0px
+}
+
+#WINDIO {
+    margin-right: 30px;
+}
+
+.header a {
+    font-size: 25px;
+    margin-left: 15px;
+    text-decoration: none;
+    color:  #1b2631 ;
+}
+
+.header a:visited {
+    color:  #1b2631 ;
+}
+
+.icon {
+    height: 20px;
+    margin-right: 5px;
+}
+
