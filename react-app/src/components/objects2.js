@@ -348,17 +348,23 @@ const data = [
                                                 id: 32131,
                                                 name: "Grid Amperage System 1",
                                                 core: "urn_uni-bremen_iab_wio_0_0_inva_0001",
-                                                doc: "urn_uni-bremen_iab_wio_0_0_inva_0001"
+                                                doc: "urn_uni-bremen_iab_wio_0_0_inva_0001",
+                                                device: "urn:uni-bremen:iab:wio:0:0:inva:0001",
+                                                sensor: "currentL1"
                                             }, {
                                                 id: 32132,
                                                 name: "Grid Amperage System 2",
                                                 core: "urn_uni-bremen_iab_wio_0_0_inva_0002",
-                                                doc: "urn_uni-bremen_iab_wio_0_0_inva_0002"
+                                                doc: "urn_uni-bremen_iab_wio_0_0_inva_0002",
+                                                device: "urn:uni-bremen:iab:wio:0:0:inva:0002",
+                                                sensor: "currentL2"
                                             }, {
                                                 id: 32133,
                                                 name: "Grid Amperage System 3",
                                                 core: "urn_uni-bremen_iab_wio_0_0_inva_0003",
-                                                doc: "urn_uni-bremen_iab_wio_0_0_inva_0003"
+                                                doc: "urn_uni-bremen_iab_wio_0_0_inva_0003",
+                                                device: "urn:uni-bremen:iab:wio:0:0:inva:0003",
+                                                sensor: "currentL3"
                                             }, {
                                                 id: 32134,
                                                 name: "Grid Voltage L1",
@@ -428,7 +434,9 @@ const data = [
                                         name: "Temperature Sensor",
                                         core: "urn_uni-bremen_ialb_wio_0_0_tnac_0001",
                                         doc: "urn_uni-bremen_ialb_wio_0_0_tnac_0001",
-                                        isSensor: true
+                                        isSensor: true,
+                                        device: "urn:uni-bremen:iab:wio:0:0:tnac:0001",
+                                        sensor: "temperature"
                                     }, {
                                         id: 4112,
                                         name: "Relative humidity Sensor",
@@ -525,7 +533,8 @@ const data = [
                                         id: 7211,
                                         name: "Wind Velocity Sensor 1",
                                         device: "urn:uni-bremen:iab:wio:0:0:wspd:0001",
-                                        core: "urn_ialb_iab_wio_0_0_wspd_0001"
+                                        core: "urn_ialb_iab_wio_0_0_wspd_0001",
+                                        sensor: "windSpeed"
                                     }, {
                                         id: 7212,
                                         name: "ZX 300 Lidar"
